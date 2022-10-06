@@ -1,0 +1,32 @@
+.botao1{
+  --background: rgb(179, 202, 233);
+}
+.botao2{
+
+  --background: rgb(136, 152, 173);
+}
+.botao3{
+  --background: rgb(147, 161, 180);
+}
+.botao{
+  justify-content: space-around;
+  display: flex;
+}
+.a{
+  --box-shadow: 0px;
+  --background: rgb(197, 194, 194);
+  border-radius: 0px;
+}
+ion-label{
+  p{
+    color: white;
+  }
+}
+ion-item{
+  ion-label{
+    color: white;
+    ion-input{
+      color: white;
+    }
+  }
+}
