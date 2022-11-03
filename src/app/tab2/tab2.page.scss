@@ -1,32 +1,36 @@
 .botao1{
-  --background: rgb(179, 202, 233);
+  --background: rgb(0, 0, 0);
 }
 .botao2{
 
-  --background: rgb(136, 152, 173);
+  --background: rgb(0, 0, 0);
 }
 .botao3{
-  --background: rgb(147, 161, 180);
+  --background: rgb(152, 64, 252);
+}
+.botao3:hover{
+  --background: black;
 }
 .botao{
   justify-content: space-around;
   display: flex;
 }
+.botaoigual{
+  --background: rgb(80, 4, 167);
+}
+.botaoigual:hover{
+  --background: black;
+}
+.botao4{
+  --background: rgb(184, 142, 231);
+}
+.botao4:hover{
+  --background: black;
+}
 .a{
   --box-shadow: 0px;
-  --background: rgb(197, 194, 194);
+  --background: rgb(0, 0, 0);
   border-radius: 0px;
 }
-ion-label{
-  p{
-    color: white;
-  }
-}
-ion-item{
-  ion-label{
-    color: white;
-    ion-input{
-      color: white;
-    }
-  }
-}
+
+
